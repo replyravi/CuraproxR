@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="142.632">
+    <testcase classname="Sign up with Email for Country South Africa and Consumer Device Android" name="Sign up with Email" time="142.356">
+        <system-out><![CDATA[Given Open the curaprox consumer application and  Select the country as South Africa.passed
+And Tab Next button.........................................................passed
+And Click on register new practice..........................................passed
+Then type location in search location for Southafrica and select location...passed
+And Click conformation location.............................................passed
+And Enter signup details....................................................passed
+Then Enter register your account details....................................passed
+And Click on I am a dental professional.....................................passed
+And type details more for register your account details.....................passed
+And type email and password with email and password.........................passed
+And Click next button.......................................................passed
+And Accept the terms and condition..........................................passed
+And open gmail and conform the link.........................................passed
+Then Curaprox app open and click not referal option.........................passed
+And Your account iscreated metion comes then click next.....................passed
+And Click skip do later.....................................................passed
+Then Click on practice open hours...........................................passed
+Then Enter description and click confirm....................................passed
+Then Select dental professional specialty...................................passed
+And Select working hours....................................................passed
+Then Click on chat settings.................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="86.182">
+    <testcase classname="Verify that user is able to create a post/campaign from the home screen which is visible to connected patients" name="Curaprox Login with email Id South Africa Location and verify create a post/campaign from the home screen" time="85.934">
+        <system-out><![CDATA[Given Login to Curaprox for create a post...................................passed
+Given Home Screen open and navigate to create a post click on it............passed
+Given Create new campaign page open and fill all the information............passed
+Given Navigate to publish section and click on it...........................passed
+Then Click on my account option and log out for create post section.........passed
+]]></system-out>
+    </testcase>
+</testsuite>

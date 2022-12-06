@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="144.752">
+    <testcase classname="Sign up with Email for Country South Africa and Consumer Device Android" name="Sign up with Email Netherlands" time="144.48">
+        <system-out><![CDATA[Given Open the curaprox consumer application and  Select the country as Netherlands.passed
+And Tab Next button Netherlands.............................................passed
+And Click on register new practice Netherlands..............................passed
+Then type location in search location for Netherlands and select location Netherlands.passed
+And Click conformation location Netherlands.................................passed
+And Enter signup details Netherlands........................................passed
+Then Enter register your account details Netherlands........................passed
+And Click on I am a dental professional Netherlands.........................passed
+And type details more for register your account details Netherlands.........passed
+And type email and password with email and password Netherlands.............passed
+And Click next button Netherlands...........................................passed
+And Accept the terms and condition Netherlands..............................passed
+And open gmail and conform the link Netherlands.............................passed
+Then Curaprox app open and click not referal option Netherlands.............passed
+And Your account iscreated metion comes then click next Netherlands.........passed
+And Click skip do later Netherlands.........................................passed
+Then Click on practice open hours Netherlands...............................passed
+Then Enter description and click confirm Netherlands........................passed
+Then Select dental professional specialty Netherlands.......................passed
+And Select working hours Netherlands........................................passed
+Then Click on chat settings Netherlands.....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

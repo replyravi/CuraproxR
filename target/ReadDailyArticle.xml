@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="142.966">
+    <testcase classname="Verify that user is able to read Daily Read articles from See All screen" name="Curaprox Login with email Id South Africa Location and Read Daily Article" time="142.718">
+        <system-out><![CDATA[Given Login to Curaprox for Read Article....................................passed
+Given Home Screen open and navigate to Daily Read section...................passed
+Then Click on recant post...................................................passed
+Then Click on back button...................................................passed
+Then Click on See All.......................................................passed
+Then Click on Daily Read See all button and click on article click..........passed
+Then Click on back button and click back button.............................passed
+Then Click on my account option and log out.................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

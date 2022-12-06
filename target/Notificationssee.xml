@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="89.81">
+    <testcase classname="Feature: See all notification, Verify bell Icon notification, Verify sort product function, sections and sub-sections in My Account screen and complete onboarding feature and receive CP successfully" name="Curaprox Login with email Id South Africa Location and verify all notification" time="89.528">
+        <system-out><![CDATA[Given Login to Curaprox for all notification................................passed
+Given Home Screen open and navigate to notification.........................passed
+Given Home Screen open and navigate to bell icon............................passed
+Given Verify all message....................................................passed
+Given Navigate to shop click on toothbrushes................................passed
+Given Click sorted and verify it............................................passed
+Given Click on My Account and verify all sections and subsections...........passed
+Then Click on my account option and log out for notification................passed
+]]></system-out>
+    </testcase>
+</testsuite>

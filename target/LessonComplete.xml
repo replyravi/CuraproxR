@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="106.527">
+    <testcase classname="Curaprox Lesson Complete" name="Curaprox Login with email Id South Africa Location" time="106.241">
+        <failure message="An unknown server-side error occurred while processing the command. Original error: The process has received SIGINT signal&#10;Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'&#10;System info: host: 'RZ-1LP3LG2', ip: '192.168.1.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: ag.curaden.curaprox.affilia..., appPackage: ag.curaden.curaprox.affiliate, applicationName: Curaprox Pro, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: ag.curaden.curaprox.affilia..., appPackage: ag.curaden.curaprox.affiliate, applicationName: Curaprox Pro, automationName: uiautomator2, deviceName: Curaproxemulator, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 3eb2807d-036d-41c1-9b35-a7b60dde76be&#10;*** Element info: {Using=xpath, value=//android.widget.TextView[@bounds='[340,1653][740,1718]']}" type="org.openqa.selenium.WebDriverException"><![CDATA[Given Login to Curaprox.....................................................passed
+Then Click on first lesson and start lesson.................................passed
+Then Complete all the lesson page...........................................passed
+Then Complete Quiz time.....................................................failed
+Then Click on done..........................................................skipped
+Then Click to my account and logout.........................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The process has received SIGINT signal
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'RZ-1LP3LG2', ip: '192.168.1.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: ag.curaden.curaprox.affilia..., appPackage: ag.curaden.curaprox.affiliate, applicationName: Curaprox Pro, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: ag.curaden.curaprox.affilia..., appPackage: ag.curaden.curaprox.affiliate, applicationName: Curaprox Pro, automationName: uiautomator2, deviceName: Curaproxemulator, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 3eb2807d-036d-41c1-9b35-a7b60dde76be
+*** Element info: {Using=xpath, value=//android.widget.TextView[@bounds='[340,1653][740,1718]']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at lessonComplete.LessonComplete.complete_quiz_time(LessonComplete.java:74)
+	at ✽.Complete Quiz time(file:///C:/Users/Ravi.s/eclipse-workspace/CuraproxR/src/test/java/features/LessonComplete.feature:31)
+]]></failure>
+    </testcase>
+</testsuite>

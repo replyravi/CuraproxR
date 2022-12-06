@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="65.296">
+    <testcase classname="Check all main function home page link" name="Curaprox Login with email Id South Africa Location" time="65.055">
+        <system-out><![CDATA[Given Select South Africa...................................................passed
+Given Tab Next button.......................................................passed
+Given Click on Sign In......................................................passed
+Then type email and password with curatest+rzsa310@morphos.is and Ringzero123.passed
+Then Click on Login.........................................................passed
+Given Click on Education....................................................passed
+Given Click on PatientCenter................................................passed
+Given Click on Shop.........................................................passed
+Then Click on My Account option for logout..................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
